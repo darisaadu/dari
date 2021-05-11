@@ -1,8 +1,5 @@
 import numpy as np 
-import pandas as pd 
-
-
-print('hello world')
+import pandas as pd
 
 l = [1,2,3,4,5,6]
 
