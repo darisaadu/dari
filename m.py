@@ -5,4 +5,4 @@ apple = np.array([155, 156, 157])
 n = len(apple)
 
 model = LinearRegression().fit(np.arange(n).reshape((n,1)), apple)
-print(model.predict([[3],[4]]))
+# print(model.predict([[3],[4]]))
