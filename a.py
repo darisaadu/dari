@@ -1,10 +1,14 @@
-import numpy as np 
-import pandas as pd
+ import numpy as np 
+ import pandas as pd
+ 
+ df = pd.DataFrame({
+     "Name": ["Braund, Mr. Owen Harris",
+     "Allen, Mr. William Henry",
+     "Bonnell, Miss. Elizabeth"],
+     "Age": [22, 35, 58],
+     "Sex": ["male", "male", "female"]} 
+     )
 
-l = [1,2,3,4,5,6]
 
-s = np.array(l)
-# print(s)
-
-df = pd.Series(s)
 print(df)
+
